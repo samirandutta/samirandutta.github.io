@@ -1,3 +1,7 @@
+---
+title: "Samiran Dutta"
+---
+
 ::: {.layout-grid}
 
 ::: {.left-col}
@@ -80,7 +84,7 @@ Investigating the Prevalence of 'Missing Middle' in Indian Manufacturing
 <div class="paper-buttons">
 <button class="toggle-btn" onclick="togglePanel(this,'mm-abstract')"><span class="btn-label">Abstract</span></button>
 </div>
-<div id="mm-abstract" class="toggle-panel">This paper re-examines the "missing middle" in Indian manufacturing using unit-level data from the NSS 73rd Round and the ASI for 2015–16, covering unorganized and organized segments, respectively. Moving beyond size-class employment shares, we adopt a Pareto-based empirical strategy to assess deviations in the firm-size distribution. The findings indicate evidence consistent with a missing middle, further supported by variations in survival probabilities across size classes. However, the combined datasets exclude an estimated 100,000–150,000 enterprises—accounting for roughly five percent of manufacturing employment—so the results should be interpreted with caution.</div>
+<div id="mm-abstract" class="toggle-panel">This paper re-examines the "missing middle" in Indian manufacturing using unit-level data from the NSS 73rd Round and the ASI for 2015–16, covering unorganized and organized segments, respectively. Moving beyond size-class employment shares, we adopt a Pareto-based empirical strategy to assess deviations in the firm-size distribution. The findings indicate evidence consistent with a missing middle, further supported by variations in survival probabilities across size classes. </div>
 </div>
 
 ## PUBLICATIONS {#publications}
@@ -104,9 +108,9 @@ The Role of Services in India's Post-Reform Economic Growth
 <div class="teaching-group">
 
 - **Research methods in Econometrics** — Masters in Economics and Psychology, PSE (2026)
-- **Introduction to Econometrics** — Masters in Economics and Psychology, PSE (2025)
+- **Introduction to Econometrics** — Masters in Economics and Psychology, PSE (2024, 2025)
 - **International Trade** —  Undergraduate L3, Université Paris 1 Pantheón-Sorbonne (2024)
-- **Macroeconomics - Growth Theory** — Masters, QEM, Université Paris 1 Pantheón-Sorbonne (2025)
+- **Macroeconomics - Growth Theory** — Masters, QEM, Université Paris 1 Pantheón-Sorbonne (2023)
 
 </div>
 

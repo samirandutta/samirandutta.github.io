@@ -11,3 +11,6 @@ images/*.log
 images/*.tex
 images/*.pdf
 images/*_orig.png
+
+/.quarto/
+**/*.quarto_ipynb

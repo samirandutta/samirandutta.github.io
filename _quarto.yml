@@ -4,7 +4,7 @@ project:
     - images/
 
 website:
-  title: ""
+  title: "Samiran Dutta"
   navbar: false
 
 format:
