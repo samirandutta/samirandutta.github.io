@@ -1,0 +1,912 @@
+/* ============================================
+   Academic Website
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap');
+
+html {
+  font-size: 16.5px !important;
+  transition: background-color 0.15s ease;
+}
+
+body {
+  font-family: 'Inconsolata', 'Courier New', monospace;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  display: block !important;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('images/scotland.JPG') center/cover no-repeat;
+  opacity: 0.08;
+  z-index: -1;
+  transition: opacity 0.15s ease;
+}
+
+/* ---------- Theme transition ---------- */
+.layout-grid, .left-col, .right-col,
+.right-col h2, .right-col p, .right-col li,
+.model-card, .toggle-panel, hr,
+.name, .left-title, .left-address,
+.paper-title, .paper-coauthors, .paper-meta,
+.toggle-btn, .top-nav a {
+  transition: background-color 0.15s ease, color 0.15s ease,
+              border-color 0.15s ease;
+}
+
+/* ---------- CSS Custom Properties ---------- */
+:root {
+  --accent: #1f6591;
+  --accent-hover: #174d6e;
+  --badge-red: #d14545;
+  --text: #222;
+  --text-muted: #555;
+  --bg: #fff;
+  --bg-alt: #f7f7f7;
+  --border: rgba(0, 0, 0, 0.28);
+  --border-strong: rgba(0, 0, 0, 0.5);
+}
+
+body.quarto-dark {
+  --accent: #6b8ef5;
+  --accent-hover: #8ba4f7;
+  --text: #f0efe9;
+  --text-muted: #888;
+  --bg: #0c0c0c;
+  --bg-alt: #161616;
+  --border: #2a2a2a;
+  --border-strong: #3a3a3a;
+}
+
+body.quarto-dark,
+body.quarto-dark #quarto-content,
+body.quarto-dark main,
+body.quarto-dark .page-columns,
+body.quarto-dark .page-layout-article,
+body.quarto-dark #quarto-document-content,
+body.quarto-dark .container-fluid,
+body.quarto-dark .container-lg,
+body.quarto-dark .container-xl {
+  background-color: #0c0c0c !important;
+  color: #f0efe9 !important;
+}
+
+/* Fix Bootstrap dark's flex body causing scroll issues */
+body.quarto-dark {
+  display: block !important;
+  min-height: 100vh !important;
+}
+
+/* Blanket white for all text in dark mode */
+body.quarto-dark * {
+  color: #f0efe9 !important;
+}
+
+/* Pop the blue elements */
+body.quarto-dark .name,
+body.quarto-dark .toggle-btn,
+body.quarto-dark .left-email a,
+body.quarto-dark .cv-bracket,
+body.quarto-dark .social-bracket,
+body.quarto-dark .social-icon-link,
+body.quarto-dark .right-col a,
+body.quarto-dark .paper-links a {
+  color: #7b9fff !important;
+}
+
+/* ---------- Dark mode Quarto overrides ---------- */
+body.quarto-dark .top-nav a,
+body.quarto-dark .top-nav a .nav-label {
+  color: #7b9fff !important;
+}
+
+body.quarto-dark .top-nav a:hover {
+  color: var(--accent) !important;
+}
+
+body.quarto-dark .quarto-color-scheme-toggle {
+  background: #161616;
+  border-color: #2a2a2a;
+  color: #f0efe9;
+}
+
+/* .toggle-panel and .model-card backgrounds managed by JS applyDarkMode() */
+
+body.quarto-dark hr {
+  border-top-color: #555 !important;
+}
+
+/* Force all text elements visible in dark mode */
+body.quarto-dark .right-col,
+body.quarto-dark .right-col p,
+body.quarto-dark .right-col li,
+body.quarto-dark .right-col h2,
+body.quarto-dark .right-col h3,
+body.quarto-dark .paper-title,
+body.quarto-dark .teaching-group li,
+body.quarto-dark .code-entry h3,
+body.quarto-dark .code-entry h3 a,
+body.quarto-dark .toggle-panel {
+  color: #f0efe9 !important;
+}
+
+body.quarto-dark .teaching-group li strong {
+  color: #7b9fff !important;
+}
+
+body.quarto-dark .right-col h2 {
+  border-bottom-color: #555 !important;
+}
+
+body.quarto-dark .toggle-btn,
+body.quarto-dark .toggle-btn .btn-label {
+  color: #7b9fff !important;
+}
+
+body.quarto-dark .model-card .toggle-btn,
+body.quarto-dark .model-card .toggle-btn .btn-label {
+  color: #f0efe9 !important;
+}
+
+body.quarto-dark .name {
+  color: #6b8ef5 !important;
+}
+
+body.quarto-dark .left-title,
+body.quarto-dark .left-address,
+body.quarto-dark .paper-coauthors,
+body.quarto-dark .paper-meta,
+body.quarto-dark .code-entry p,
+body.quarto-dark .model-card .toggle-panel {
+  color: #888 !important;
+}
+
+body.quarto-dark::before {
+  opacity: 0.03;
+}
+
+/* ---------- Reset Quarto chrome ---------- */
+#quarto-header { display: none !important; }
+.quarto-title-block { display: none !important; }
+#quarto-content { margin-top: 0 !important; }
+
+/* Force Quarto containers to full width */
+#quarto-content,
+#quarto-content.quarto-container,
+.quarto-container,
+.page-columns,
+.page-rows-contents,
+.page-layout-article,
+#quarto-document-content,
+main.content,
+main,
+body > div,
+body > div > div,
+body > div > div > main {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  grid-column: unset !important;
+}
+
+/* Override Quarto's grid-template-columns that caps body content width */
+.fullcontent .page-columns,
+.fullcontent:not(.floating):not(.docked) .page-columns,
+.page-columns {
+  display: block !important;
+  grid-template-columns: none !important;
+}
+
+/* Ensure layout-grid is never overridden */
+.layout-grid {
+  display: grid !important;
+}
+
+.container-fluid, .container-lg, .container-md,
+.container-sm, .container-xl, .container-xxl {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Prevent Quarto from wrapping inline elements in <p> tags */
+.social-icons p {
+  display: inline;
+  margin: 0;
+}
+
+/* ---------- Theme toggle ---------- */
+.quarto-color-scheme-toggle {
+  position: fixed !important;
+  top: 1rem;
+  right: 1.5rem;
+  z-index: 1000;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.quarto-color-scheme-toggle:hover {
+  background: var(--border);
+}
+
+/* SVG icon injected by JS into theme toggle */
+.quarto-color-scheme-toggle svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--text-muted);
+  display: block;
+}
+
+/* ---------- Two-column grid ---------- */
+.layout-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 80px;
+  max-width: 3000px;
+  margin: 0 auto;
+  padding: 50px 160px;
+  align-items: start;
+}
+
+/* ---------- Left column (sticky) ---------- */
+.left-col {
+  position: sticky;
+  top: 50px;
+  align-self: start;
+  text-align: center;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+/* Headshot: grayscale, color on hover */
+.headshot {
+  width: 100%;
+  max-width: 220px;
+  height: 305px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
+
+.headshot:hover {
+  filter: grayscale(100%);
+}
+
+.left-title {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+/* Left links row (CV + social) */
+.left-links {
+  margin-top: 0.6rem;
+}
+
+.left-links p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.cv-bracket {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.cv-bracket:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.social-bracket {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.social-icon-link {
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icon-link:hover {
+  color: var(--accent);
+}
+
+
+/* Email */
+.left-email {
+  margin-top: 0.8rem;
+  font-size: 0.88rem;
+}
+
+.left-email a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.email-label {
+  position: relative;
+}
+
+.email-label::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+.left-email a:hover .email-label::after {
+  width: 100%;
+}
+
+/* Address */
+.left-address {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* Social icons */
+.social-icons {
+  margin-top: 1rem;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.social-icons > * {
+  display: inline !important;
+  margin: 0 !important;
+}
+
+.social-icons a {
+  color: var(--text-muted);
+  transition: color 0.2s;
+  display: inline-flex !important;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  color: var(--accent);
+}
+
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Left nav links */
+.left-nav {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.left-nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.left-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.left-nav a:hover::after {
+  width: 100%;
+}
+
+/* ---------- Right column ---------- */
+.right-col {
+  min-width: 0;
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Top nav (horizontal, at top of right column) */
+.top-nav {
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.top-nav p {
+  margin: 0;
+  padding-bottom: 0.4rem;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: var(--text) !important;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  margin-right: 1rem;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0;
+}
+
+.top-nav a::before {
+  content: "[\00a0";
+}
+
+.top-nav a::after {
+  content: "\00a0]" !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+  transition: none !important;
+}
+
+.top-nav a:hover {
+  color: var(--accent) !important;
+}
+
+.top-nav a .nav-label {
+  position: relative;
+}
+
+.top-nav a .nav-label::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+.top-nav a:hover .nav-label::after {
+  width: 100%;
+}
+
+/* Section headings */
+.right-col h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 0.75rem;
+  scroll-margin-top: 30px;
+  text-align: left;
+  color: var(--text);
+  border-bottom: 1.5px solid var(--border-strong);
+  padding-bottom: 8px;
+}
+
+.right-col h2:first-of-type,
+.right-col h2#about {
+  margin-top: 0;
+}
+
+/* Links with animated underline */
+.right-col a {
+  color: var(--accent);
+  text-decoration: none;
+  position: relative;
+}
+
+.right-col a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.right-col a:hover::after {
+  width: 100%;
+}
+
+/* Tighten paragraph spacing in the right column */
+.right-col > p {
+  margin-bottom: 0.4rem;
+}
+
+/* Extra space after the last bio paragraph before section headings */
+.right-col > p:last-of-type {
+  margin-bottom: 2rem;
+}
+
+
+/* ---------- Horizontal rules ---------- */
+hr {
+  border: none;
+  border-top: 1.5px solid var(--border-strong);
+  margin: 1.5rem 0;
+}
+
+/* ---------- About section ---------- */
+.about-section {
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  margin-bottom: 0.8rem;
+}
+
+/* ---------- Paper entries ---------- */
+.paper {
+  margin-bottom: 1.25rem;
+}
+
+.paper p,
+.paper > div:not(.paper-buttons) {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.paper-title{
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.paper-title a {
+  color: var(--text);
+}
+
+.paper-title a:hover {
+  color: var(--accent);
+}
+
+.paper-coauthors{
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.paper-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.paper-meta-label {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* JMP badge */
+.badge-jmp {
+  display: inline-block;
+  background: var(--badge-red);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Toggle buttons */
+
+.toggle-btn {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: var(--accent) !important;
+  font-family: inherit !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  padding: 0 !important;
+  line-height: inherit;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0;
+}
+
+.toggle-btn::before {
+  content: "[\00a0";
+}
+
+.toggle-btn::after {
+  content: "\00a0]";
+}
+
+.toggle-btn {
+  position: relative;
+}
+
+.toggle-btn:hover {
+  color: var(--accent-hover);
+}
+
+.toggle-btn .btn-label {
+  position: relative;
+  display: inline;
+}
+
+.toggle-btn .btn-label::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.toggle-btn:hover .btn-label::after,
+.toggle-btn.active .btn-label::after {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.paper-buttons {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.toggle-panel {
+  display: none;
+  margin-top: 0;
+  padding: 0.75rem 1.1rem;
+  background: var(--bg-alt);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--text);
+  animation: fadeIn 0.25s ease;
+}
+
+/* Paper links row */
+.paper-links {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.paper-links a {
+  color: var(--accent);
+}
+
+/* Presentations expandable */
+.paper details.presentations-detail summary {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.paper details.presentations-detail .presentations-list {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 0.4rem 0 0 1rem;
+  line-height: 1.5;
+}
+
+/* ---------- Teaching ---------- */
+.teaching-group {
+  margin-bottom: 1.5rem;
+}
+
+.teaching-group h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.teaching-group ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.teaching-group li {
+  padding: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.teaching-group li strong {
+  color: var(--text);
+}
+
+/* ---------- Code section ---------- */
+.code-entry {
+  margin-bottom: 1.5rem;
+}
+
+.code-entry h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.code-entry h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.code-entry h3 a:hover {
+  color: var(--accent);
+}
+
+.code-entry p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.model-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.model-card {
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-alt);
+  border-radius: 0 4px 4px 0;
+}
+
+.model-card .toggle-btn::before {
+  content: ">\00a0";
+}
+
+.model-card .toggle-btn::after {
+  content: "";
+}
+
+.model-card .toggle-btn {
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  color: var(--text) !important;
+}
+
+.model-card .toggle-btn .btn-label {
+  color: var(--text) !important;
+}
+
+.model-figures {
+  margin-top: 0.75rem;
+  width: 100%;
+}
+
+.model-figures p {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0;
+}
+
+.model-figures img {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  height: auto;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.model-card .toggle-panel {
+  margin-top: 0.35rem;
+  border-left: none;
+  background: none;
+  border-radius: 0;
+  padding: 0 0 0 1rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1100px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+    padding: 30px 24px;
+    gap: 2rem;
+  }
+
+  .left-col {
+    position: relative;
+    top: auto;
+  }
+
+  .left-nav {
+    display: none;
+  }
+
+  .headshot {
+    max-width: 200px;
+  }
+}
+
+/* On mobile, hide left-nav (top-nav takes over) */
+/* On desktop, both navs are visible like the reference */

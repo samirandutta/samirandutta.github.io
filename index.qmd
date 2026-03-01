@@ -1,0 +1,218 @@
+::: {.layout-grid}
+
+::: {.left-col}
+<div class="name">Samiran Dutta</div>
+
+![](images/headshot.jpg){.headshot}
+
+<div class="left-title">
+PhD Candidate in Economics<br>
+Paris School of Economics
+</div>
+
+<div class="left-email">
+<a href="mailto:samiran.dutta@psemail.eu"><span class="email-label">samiran.dutta@psemail.eu</span></a>
+</div>
+
+<div class="left-links">
+<a href="files/cv.pdf" class="cv-bracket" target="_blank">&lt;&nbsp;CV&nbsp;&gt;</a>
+<span class="social-bracket">&lt;&nbsp;<a href="https://github.com/samirandutta" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon-link"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>&nbsp;<a href="https://scholar.google.com/citations?user=Nul09cIAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" class="social-icon-link"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>&nbsp;<a href="https://x.com/samiran_dutta19" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-icon-link"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>&nbsp;&gt;</span>
+</div>
+
+:::
+
+::: {.right-col}
+
+<div class="top-nav">
+<a href="#working-papers"><span class="nav-label">Working Papers</span></a>
+<a href="#work-in-progress"><span class="nav-label">Work in Progress</span></a>
+<a href="#publications"><span class="nav-label">Publications</span></a>
+<a href="#teaching"><span class="nav-label">Teaching</span></a>
+<a href="#code"><span class="nav-label">Code</span></a>
+</div>
+
+I am a PhD candidate in Economics at the Paris School of Economics. My research lies at the intersection of macroeconomics and labor economics, with a focus on firm dynamics, labor market frictions, and multi-worker wage bargaining. In Spring 2025, I was a visiting scholar at the University of Edinburgh, hosted by [Prof. Mike Elsby](https://sites.google.com/site/mikeelsby/){target="_blank"} and [Prof. Axel Gottfries](https://sites.google.com/site/axelgottfries/){target="_blank"}.
+
+Prior to my doctoral studies, I earned an MRes in Economics from the Paris School of Economics and a B.A. (Hons.) from University of Delhi. I was previously affiliated with the India-KLEMS project at the Centre for Development Economics, Delhi School of Economics, where I worked on the production of the [India Productivity Report](https://rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&ID=1217){target="_blank"} in collaboration with the Reserve Bank of India.
+
+## WORK IN PROGRESS {#work-in-progress}
+
+<div class="paper">
+<div class="paper-title">
+The Reserve Army of Labor: Firm Dynamics and Dual Labor Markets in India
+</div>
+<div class="paper-buttons">
+<button class="toggle-btn" onclick="togglePanel(this,'ra-abstract')"><span class="btn-label">Abstract</span></button>
+<button class="toggle-btn" onclick="togglePanel(this,'ra-presentations')"><span class="btn-label">Presentations</span></button>
+<button class="toggle-btn" onclick="togglePanel(this,'ra-funding')"><span class="btn-label">Funding</span></button>
+</div>
+<div id="ra-abstract" class="toggle-panel">This paper develops a search-and-matching model of large firms with productivity heterogeneity, dual labor markets, and unionized wage bargaining. Firms hire through two channels — a regular labor market with matching frictions, adjustment costs, and collective bargaining, and a contract labor market where contractors supply workers for a per-head fee without frictions. Adjustment costs generate inaction regions in regular employment — consistent with novel establishment-level evidence from India's manufacturing sector — while contract labor provides a flexible margin to absorb productivity shocks. Larger firms strategically "overemploy" contract workers, using them not only as a substitute input but also to exert downward pressure on union-negotiated regular worker wages. The model replicates key empirical patterns in India's manufacturing sector, where contract workers function as a de facto "reserve" workforce, offering flexibility and surplus value through wage compression. The framework highlights an output–wage trade-off — contract labor reduces misallocation by easing adjustment but simultaneously weakens collective bargaining, compressing regular wages.</div>
+<div id="ra-presentations" class="toggle-panel">Macro Workshop, PSE (May 2024, October 2025); Macro Reading Group, University of Edinburgh (April 2025); Labor/Public Reading Group, Sciences Po (October 2025); ACEGD, ISI Delhi (December 2025)</div>
+<div id="ra-funding" class="toggle-panel">EUR PgSE.</div>
+</div>
+
+<div class="paper">
+<div class="paper-title">
+Unions, Hold-up, and Joint Dynamics of Labor and Capital
+</div>
+<div class="paper-coauthors">
+with Alex McQuitty
+</div>
+</div>
+
+<div class="paper">
+<div class="paper-title">
+Public Infrastructure and Intra-Sector Misallocation: Theory and Evidence from India
+</div>
+<div class="paper-coauthors">
+with François Fontaine and Sarath C. Mudigonda
+</div>
+</div>
+
+## WORKING PAPERS {#working-papers}
+
+<div class="paper">
+<div class="paper-title">
+Investigating the Prevalence of 'Missing Middle' in Indian Manufacturing
+</div>
+<div class="paper-coauthors">with B. N. Goldar and P. Majumder
+</div>
+<div class="paper-buttons">
+<button class="toggle-btn" onclick="togglePanel(this,'mm-abstract')"><span class="btn-label">Abstract</span></button>
+</div>
+<div id="mm-abstract" class="toggle-panel">This paper re-examines the "missing middle" in Indian manufacturing using unit-level data from the NSS 73rd Round and the ASI for 2015–16, covering unorganized and organized segments, respectively. Moving beyond size-class employment shares, we adopt a Pareto-based empirical strategy to assess deviations in the firm-size distribution. The findings indicate evidence consistent with a missing middle, further supported by variations in survival probabilities across size classes. However, the combined datasets exclude an estimated 100,000–150,000 enterprises—accounting for roughly five percent of manufacturing employment—so the results should be interpreted with caution.</div>
+</div>
+
+## PUBLICATIONS {#publications}
+
+<div class="paper">
+<div class="paper-title">
+The Role of Services in India's Post-Reform Economic Growth
+</div>
+<div class="paper-coauthors">with B. N. Goldar and P. C. Das — *Structural Change and Economic Dynamics*, 2024
+</div>
+<div class="paper-buttons">
+<button class="toggle-btn" onclick="togglePanel(this,'services-abstract')"><span class="btn-label">Abstract</span></button>
+<button class="toggle-btn" onclick="togglePanel(this,'services-presentations')"><span class="btn-label">Presentations</span></button>
+</div>
+<div id="services-abstract" class="toggle-panel">Leveraging industry-level data from the India KLEMS database for 1993–2018, we trace how services became India's principal growth driver after the 1990s reforms. Over the period, the sector's value-added share rose from 41% to 53% and real output grew 7.5 % per year — roughly half of aggregate GDP growth. We estimate total factor productivity (TFP) for 14 service industries and decompose their contributions to sector-wide TFP. Transport & storage emerges as the single largest contributor among market services, followed by financial services; in non-market activities, public administration dominates. Panel regressions reveal strong positive spillovers from manufacturing TFP to both market and non-market services, while an augmented model with foreign-sector variables confirms significant productivity diffusion from advanced economies. Taken together, the results highlight inter-sectoral and international linkages as critical channels sustaining India's service-led growth.</div>
+<div id="services-presentations" class="toggle-panel">Seventh World KLEMS Conference, University of Manchester (virtual)</div>
+</div>
+
+## TEACHING {#teaching}
+
+<div class="teaching-group">
+
+- **Research methods in Econometrics** — Masters in Economics and Psychology, PSE (2026)
+- **Introduction to Econometrics** — Masters in Economics and Psychology, PSE (2025)
+- **International Trade** —  Undergraduate L3, Université Paris 1 Pantheón-Sorbonne (2024)
+- **Macroeconomics - Growth Theory** — Masters, QEM, Université Paris 1 Pantheón-Sorbonne (2025)
+
+</div>
+
+## CODE {#code}
+
+<div class="code-entry">
+
+### [**> Macro-Labor Models**](https://github.com/samirandutta/macro_labor_models){target="_blank"}
+
+The repository contains JULIA code for replicating the main results of seminal models in macro-labor. These are updated as I progress through my own learning. 
+
+<div class="model-cards">
+<div class="model-card">
+<button class="toggle-btn" onclick="togglePanel(this,'model-hop92')"><span class="btn-label"> Hopenhayn (1992)</span></button>
+<div id="model-hop92" class="toggle-panel">Industry equilibrium with heterogeneous firms, entry/exit, and stationary firm-size distributions. Solves for the value function, stationary distribution of firms, and equilibrium entry/exit cutoffs.
+<div class="model-figures">
+<img src="images/hop_value.png" alt="Value function">
+<img src="images/hop_dist.png" alt="Firm size distribution">
+</div>
+</div>
+</div>
+<div class="model-card">
+<button class="toggle-btn" onclick="togglePanel(this,'model-hopreg93')"><span class="btn-label"> Hopenhayn and Rogerson (1993)</span></button>
+<div id="model-hopreg93" class="toggle-panel">General equilibrium with firing costs and labor misallocation. Solves for the value function, stationary distribution of firms, equilibrium cutoff and inaction thresholds. 
+<div class="model-figures">
+<img src="images/hr_value_function.png" alt="Value function">
+<img src="images/hr_inaction_region.png" alt="Inaction region">
+</div>
+</div>
+</div>
+<div class="model-card">
+<button class="toggle-btn" onclick="togglePanel(this,'model-berg22')"><span class="btn-label"> Berger, Herkenhoff and Mongey (2022)</span></button>
+<div id="model-berg22" class="toggle-panel">Labor market power with monopsonistic firms. Computes monopsony wedges, markdown on wages, and the aggregate output and welfare effects of market concentration.
+<div class="model-figures">
+<img src="images/mkdown.png" alt="Markdown on wages">
+<img src="images/wbshare.png" alt="Wage bill share">
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+:::
+
+:::
+
+<script>
+// Quarto's Safari scrollbar hack calls window.scrollTo(0,1) synchronously
+// and window.scrollTo(0,0) again after 40ms, causing a jump to top.
+// Suppress scrollTo entirely for 50ms so the page never moves during toggle.
+(function() {
+  const orig = window.quartoToggleColorScheme;
+  if (orig) {
+    window.quartoToggleColorScheme = function() {
+      const scrollY = window.scrollY;
+      const realScrollTo = window.scrollTo.bind(window);
+      document.body.style.setProperty('display', 'block', 'important'); // prevent flex flash
+      window.scrollTo = () => {};          // block all scrollTo calls
+      orig();
+      setTimeout(() => {
+        window.scrollTo = realScrollTo;    // restore after Quarto's 40ms fires
+        realScrollTo(0, scrollY);          // snap back to where we were
+      }, 50);
+    };
+  }
+})();
+
+function togglePanel(btn, id) {
+  const panel = document.getElementById(id);
+  const isOpen = panel.style.display === 'block';
+  panel.style.display = isOpen ? 'none' : 'block';
+  btn.classList.toggle('active', !isOpen);
+}
+
+function applyDarkMode() {
+  document.body.style.setProperty('display', 'block', 'important'); // beat any Bootstrap flex rule
+  const isDark = document.body.classList.contains('quarto-dark');
+  // Inject SVG moon (light mode) or sun (dark mode) into the toggle button
+  const moonSVG = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/></svg>';
+  const sunSVG = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707"/></svg>';
+  document.querySelectorAll('.quarto-color-scheme-toggle').forEach(btn => {
+    btn.innerHTML = isDark ? sunSVG : moonSVG;
+  });
+  // html background (Safari :has() bug workaround)
+  document.documentElement.style.setProperty('background-color', isDark ? '#0c0c0c' : '', 'important');
+  // Model cards and panels — Safari doesn't animate CSS-variable-driven transitions
+  document.querySelectorAll('.model-card').forEach(el => {
+    el.style.setProperty('background-color', isDark ? '#161616' : '#f7f7f7', 'important');
+  });
+  document.querySelectorAll('.toggle-panel').forEach(el => {
+    el.style.setProperty('background-color', isDark ? '#161616' : '', 'important');
+  });
+  document.querySelectorAll('.right-col h2').forEach(el => {
+    el.style.setProperty('color', isDark ? '#f0efe9' : '', 'important');
+    el.style.setProperty('border-bottom-color', isDark ? '#555' : '', 'important');
+  });
+  document.querySelectorAll('hr').forEach(el => {
+    el.style.setProperty('border-top-color', isDark ? '#555' : '', 'important');
+  });
+}
+
+new MutationObserver(applyDarkMode)
+  .observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+// Run after Quarto's DOMContentLoaded creates the toggle <i> element
+document.addEventListener('DOMContentLoaded', () => setTimeout(applyDarkMode, 0));
+</script>

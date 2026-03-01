@@ -1,0 +1,13 @@
+_site/
+.quarto/
+.DS_Store
+.claude/
+1.png
+Screenshot*.png
+/headshot.jpg
+images/.DS_Store
+images/*.aux
+images/*.log
+images/*.tex
+images/*.pdf
+images/*_orig.png

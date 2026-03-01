@@ -1,0 +1,17 @@
+project:
+  type: website
+  resources:
+    - images/
+
+website:
+  title: ""
+  navbar: false
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false
+    css: styles.css
+    section-divs: false
