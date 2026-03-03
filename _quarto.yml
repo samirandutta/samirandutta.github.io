@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - images/
+    - googlee76222b4541bb231.html
 
 website:
   title: "Samiran Dutta"
