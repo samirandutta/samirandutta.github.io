@@ -16,3 +16,5 @@ format:
     toc: false
     css: styles.css
     section-divs: false
+    include-in-header:
+      text: '<meta name="google-site-verification" content="e76222b4541bb231" />'
