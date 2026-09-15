@@ -50,8 +50,9 @@ The Reserve Army of Labor: Firm Dynamics, Bargaining, and Dual Labor Markets
 <button class="toggle-btn" onclick="togglePanel(this,'ra-presentations')"><span class="btn-label">Presentations</span></button>
 <button class="toggle-btn" onclick="togglePanel(this,'ra-funding')"><span class="btn-label">Funding</span></button>
 </div>
-<div id="ra-abstract" class="toggle-panel">This paper studies how firms use dual labor markets — regular and contract — to manage productivity shocks and discipline wages. Using annual and monthly administrative plant-level data from Indian manufacturing, I document four facts: high and persistent gross inaction in regular employment, a sharp rise in contract employment concentrated among large plants, occupational overlap between regular and contract workers, and a declining plant-size wage premium for regular workers. Motivated by these facts, I develop a tractable search-and-matching model with large-firm dynamics and dual labor markets. Firms face search frictions and separation costs in the regular labor market, but can rent contract workers frictionlessly through labor contractors. Contract labor acts both as a flexible substitute input for absorbing shocks, and as a bargaining device that improves the firm's outside option against regular workers.  In equilibrium, contract labor raises output by avoiding regular employment frictions, but firms "overemploy" it to shift rents away from workers. The expansion of contract labor therefore generates a novel trade-off: it improves allocative flexibility while pushing the economy towards a low-wage equilibrium. The model replicates key empirical patterns in Indian manufacturing and separates the flexibility and bargaining motives behind contract employment across firms, highlighting their distinct aggregate and distributional consequences.</div>
-<div id="ra-presentations" class="toggle-panel">Macro Workshop, PSE (May 2024, October 2025); Macro Reading Group, University of Edinburgh (April 2025); Labor/Public Reading Group, Sciences Po (October 2025); ACEGD, ISI Delhi (December 2025); 14th Warwick Economics PhD conference (scheduled, May 2026)</div>
+<div id="ra-abstract" class="toggle-panel">This paper studies how firms use dual labor markets — regular and contract — to manage productivity shocks and discipline wages. Using annual and monthly administrative plant-level data from Indian manufacturing, I document the importance of gross inaction in regular employment adjustments, a sharp rise in contract employment concentrated among large plants, and a declining plant-size wage premium for regular workers. Motivated by these facts, I develop a tractable search-and-matching model with large-firm dynamics and dual labor markets. Firms face search frictions and separation costs in the regular labor market, but can rent contract workers frictionlessly through labor contractors. Contract labor acts both as a flexible substitute input for absorbing shocks, and as a bargaining device that improves the firm’s outside option against regular workers.  In equilibrium, contract labor raises output by easing regular-employment adjustment frictions, but firms \textit{overemploy} it to shift rents away from workers. The expansion of contract labor therefore generates an output–wage trade-off: it improves allocative flexibility while pushing the economy toward a low-wage equilibrium. The model provides a novel rationalization of key empirical patterns in Indian manufacturing and separates the flexibility and bargaining motives behind contract employment, highlighting their distinct aggregate and distributional consequences.</div>
+<div id="ra-presentations" class="toggle-panel">Macro Workshop, PSE (May 2024, 2026; October 2025); Macro Reading Group, University of Edinburgh (April 2025); Labor/Public Reading Group, Sciences Po (October 2025); 
+20th Annual Conference on Economic Growth and Development, ISI Delhi (December 2025); 14th Warwick Economics PhD conference (May 2026); Brownbag Macro Seminar, University of Edinburgh (June 2026)</div>
 <div id="ra-funding" class="toggle-panel">EUR PgSE.</div>
 </div>
 
@@ -60,17 +61,21 @@ The Reserve Army of Labor: Firm Dynamics, Bargaining, and Dual Labor Markets
 Unions, Hold-up, and Joint Dynamics of Labor and Capital
 </div>
 <div class="paper-coauthors">
-with Alex McQuitty
+with <strong><a href="https://sites.google.com/view/alexmcquittyeconomics/about">Alex McQuitty</a></strong>
 </div>
 </div>
 
 <div class="paper">
 <div class="paper-title">
-Public Infrastructure and Intra-Sector Misallocation: Theory and Evidence from India
+Better Roads or Stronger Rivals? Relative Access and the Uneven Gains from Infrastructure
 </div>
 <div class="paper-coauthors">
-with François Fontaine and Sarath C. Mudigonda
+with <strong><a href="https://sites.google.com/site/francoisfontn/">François Fontaine</a></strong> and <strong><a href="https://www.parisschoolofeconomics.eu/en/persons/sarath-chandra-mudigonda/">Sarath C. Mudigonda</a></strong>
 </div>
+<div class="paper-buttons">
+<button class="toggle-btn" onclick="togglePanel(this,'roads-abstract')"><span class="btn-label">Abstract</span></button>
+</div>
+<div id="roads-abstract" class="toggle-panel">Transport infrastructure can raise aggregate income while leaving some locations worse off. We study this spatial distribution through a plant's road access relative to its competitors, using India's Golden Quadrilateral highway program. Combining plant-level data with the expansion of the network, we construct a measure of relative access weighted by competitors' lagged value added and instrument it with an analogous straight-line measure. Plants whose relative access improves expand sales, value added, and domestic material purchases. Product-level input quantities rise, with no detectable average change in unit values. Motivated by these findings, we develop a general equilibrium model of oligopolistic competition in which plants source materials and sell final goods across districts over the same road network. We then use the model to examine how material sourcing affects plants' relative competitiveness and the distribution of income gains across district</div>
 </div>
 
 ## WORKING PAPERS {#working-papers}
@@ -79,7 +84,7 @@ with François Fontaine and Sarath C. Mudigonda
 <div class="paper-title">
 Investigating the Prevalence of 'Missing Middle' in Indian Manufacturing
 </div>
-<div class="paper-coauthors">with B. N. Goldar and P. Majumder
+<div class="paper-coauthors">with <strong>B. N. Goldar</strong> and <strong>P. Majumder</strong>
 </div>
 <div class="paper-buttons">
 <button class="toggle-btn" onclick="togglePanel(this,'mm-abstract')"><span class="btn-label">Abstract</span></button>
@@ -93,7 +98,7 @@ Investigating the Prevalence of 'Missing Middle' in Indian Manufacturing
 <div class="paper-title">
 The Role of Services in India's Post-Reform Economic Growth
 </div>
-<div class="paper-coauthors">with B. N. Goldar and P. C. Das — *Structural Change and Economic Dynamics*, 2024
+<div class="paper-coauthors">with <strong>B. N. Goldar</strong> and <strong>P. C. Das</strong> — *Structural Change and Economic Dynamics*, 2024
 </div>
 <div class="paper-buttons">
 <button class="toggle-btn" onclick="togglePanel(this,'services-abstract')"><span class="btn-label">Abstract</span></button>
