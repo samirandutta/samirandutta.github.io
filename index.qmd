@@ -35,7 +35,7 @@ Paris School of Economics
 <a href="#code"><span class="nav-label">Code</span></a>
 </div>
 
-I am a PhD candidate in Economics at the Paris School of Economics. My research lies at the intersection of macroeconomics and labor economics, with a focus on firm dynamics, labor market frictions, and multi-worker wage bargaining. In Spring 2025, I was a visiting scholar at the University of Edinburgh, hosted by [Prof. Mike Elsby](https://sites.google.com/site/mikeelsby/){target="_blank"} and [Prof. Axel Gottfries](https://sites.google.com/site/axelgottfries/){target="_blank"}.
+I am a PhD candidate in Economics at the Paris School of Economics, under the supervision of [Prof. François Fontaine](https://sites.google.com/site/francoisfontn/). My research lies at the intersection of macroeconomics and labor economics, with a focus on firm dynamics, labor market frictions, and multi-worker wage bargaining. In Spring 2025, I was a visiting scholar at the University of Edinburgh, hosted by [Prof. Mike Elsby](https://sites.google.com/site/mikeelsby/){target="_blank"} and [Prof. Axel Gottfries](https://sites.google.com/site/axelgottfries/){target="_blank"}.
 
 Prior to my doctoral studies, I earned an MRes in Economics from the Paris School of Economics and a B.A. (Hons.) in Economics from University of Delhi. I was previously affiliated with the India-KLEMS project at the Centre for Development Economics, Delhi School of Economics, where I worked on the production of the [India Productivity Report](https://rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&ID=1217){target="_blank"} in collaboration with the Reserve Bank of India.
 
@@ -113,7 +113,7 @@ The Role of Services in India's Post-Reform Economic Growth
 <div class="teaching-group">
 
 - **Research methods in Econometrics** — Masters in Economics and Psychology, PSE (2026)
-- **Introduction to Econometrics** — Masters in Economics and Psychology, PSE (2024, 2025)
+- **Introduction to Econometrics** — Masters in Economics and Psychology, PSE (2024, 2025, 2026)
 - **International Trade** —  Undergraduate L3, Université Paris 1 Pantheón-Sorbonne (2024)
 - **Macroeconomics - Growth Theory** — Masters, QEM, Université Paris 1 Pantheón-Sorbonne (2023)
 
