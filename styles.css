@@ -6,6 +6,7 @@
 
 html {
   font-size: 16.5px !important;
+  background-color: var(--bg) !important;
   transition: background-color 0.15s ease;
 }
 
@@ -16,18 +17,12 @@ body {
   text-rendering: optimizeLegibility;
   position: relative;
   display: block !important;
+  background-color: var(--bg) !important;
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: url('images/scotland.JPG') center/cover no-repeat;
-  opacity: 0.08;
-  z-index: -1;
-  transition: opacity 0.15s ease;
+  display: none;
 }
 
 /* ---------- Theme transition ---------- */
@@ -48,7 +43,7 @@ body::before {
   --badge-red: #d14545;
   --text: #222;
   --text-muted: #555;
-  --bg: #fff;
+  --bg: #fcfaf5;
   --bg-alt: #f7f7f7;
   --border: rgba(0, 0, 0, 0.28);
   --border-strong: rgba(0, 0, 0, 0.5);
@@ -59,8 +54,8 @@ body.quarto-dark {
   --accent-hover: #8ba4f7;
   --text: #f0efe9;
   --text-muted: #888;
-  --bg: #0c0c0c;
-  --bg-alt: #161616;
+  --bg: #171b22;
+  --bg-alt: #1e2229;
   --border: #2a2a2a;
   --border-strong: #3a3a3a;
 }
@@ -74,7 +69,7 @@ body.quarto-dark #quarto-document-content,
 body.quarto-dark .container-fluid,
 body.quarto-dark .container-lg,
 body.quarto-dark .container-xl {
-  background-color: #0c0c0c !important;
+  background-color: #171b22 !important;
   color: #f0efe9 !important;
 }
 
@@ -112,7 +107,7 @@ body.quarto-dark .top-nav a:hover {
 }
 
 body.quarto-dark .quarto-color-scheme-toggle {
-  background: #161616;
+  background: #1e2229;
   border-color: #2a2a2a;
   color: #f0efe9;
 }
@@ -168,9 +163,6 @@ body.quarto-dark .model-card .toggle-panel {
   color: #888 !important;
 }
 
-body.quarto-dark::before {
-  opacity: 0.03;
-}
 
 /* ---------- Reset Quarto chrome ---------- */
 #quarto-header { display: none !important; }
@@ -197,6 +189,7 @@ body > div > div > main {
   margin-left: 0 !important;
   margin-right: 0 !important;
   grid-column: unset !important;
+  background-color: var(--bg) !important;
 }
 
 /* Override Quarto's grid-template-columns that caps body content width */
@@ -278,7 +271,7 @@ body > div > div > main {
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #000;
   letter-spacing: 0.05em;
   margin-bottom: 1rem;
   line-height: 1.3;
@@ -387,6 +380,50 @@ body > div > div > main {
   font-size: 0.82rem;
   color: var(--text-muted);
   line-height: 1.5;
+}
+
+/* ---------- News section (left column) ---------- */
+.news-section {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.news-heading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  border-bottom: 1.5px solid var(--border-strong);
+  padding-bottom: 6px;
+  margin-bottom: 0.6rem;
+}
+
+.news-list {
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.82rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.news-list li {
+  margin-bottom: 0.4rem;
+}
+
+.news-list a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.news-list a:hover {
+  background-size: 100% 1.5px;
 }
 
 /* Social icons */

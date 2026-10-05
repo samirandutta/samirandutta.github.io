@@ -23,6 +23,13 @@ Paris School of Economics
 <span class="social-bracket">&lt;&nbsp;<a href="https://github.com/samirandutta" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon-link"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>&nbsp;<a href="https://scholar.google.com/citations?user=Nul09cIAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" class="social-icon-link"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>&nbsp;<a href="https://x.com/samiran_dutta19" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-icon-link"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>&nbsp;&gt;</span>
 </div>
 
+<div class="news-section">
+<h3 class="news-heading">News</h3>
+<ul class="news-list">
+<li>Presenting at the <a href="https://aefresearch.site.hw.ac.uk/events/" target="_blank"><em>III Workshop on Frontiers of Macro-Labour Economics</em></a>, December 2026.</li>
+</ul>
+</div>
+
 :::
 
 ::: {.right-col}
@@ -50,7 +57,7 @@ The Reserve Army of Labor: Firm Dynamics, Bargaining, and Dual Labor Markets
 <button class="toggle-btn" onclick="togglePanel(this,'ra-presentations')"><span class="btn-label">Presentations</span></button>
 <button class="toggle-btn" onclick="togglePanel(this,'ra-funding')"><span class="btn-label">Funding</span></button>
 </div>
-<div id="ra-abstract" class="toggle-panel">This paper studies how firms use dual labor markets — regular and contract — to manage productivity shocks and discipline wages. Using annual and monthly administrative plant-level data from Indian manufacturing, I document the importance of gross inaction in regular employment adjustments, a sharp rise in contract employment concentrated among large plants, and a declining plant-size wage premium for regular workers. Motivated by these facts, I develop a tractable search-and-matching model with large-firm dynamics and dual labor markets. Firms face search frictions and separation costs in the regular labor market, but can rent contract workers frictionlessly through labor contractors. Contract labor acts both as a flexible substitute input for absorbing shocks, and as a bargaining device that improves the firm’s outside option against regular workers.  In equilibrium, contract labor raises output by easing regular-employment adjustment frictions, but firms \textit{overemploy} it to shift rents away from workers. The expansion of contract labor therefore generates an output–wage trade-off: it improves allocative flexibility while pushing the economy toward a low-wage equilibrium. The model provides a novel rationalization of key empirical patterns in Indian manufacturing and separates the flexibility and bargaining motives behind contract employment, highlighting their distinct aggregate and distributional consequences.</div>
+<div id="ra-abstract" class="toggle-panel">This paper studies how firms use dual labor markets to manage productivity shocks and discipline wages. Using annual and monthly administrative plant-level data from Indian manufacturing, I document pervasive inaction in regular employment adjustment, a sharp rise in contract employment concentrated among large plants, and an erosion of the plant-size wage premium for regular workers. Motivated by these facts, I develop a tractable search-and-matching model with firm dynamics, two channels of hiring, and intra-firm bargaining. Firms face search and firing frictions in the regular labor market but rent contract workers frictionlessly through labor contractors. Contract labor serves both as a flexible input for absorbing shocks and as a bargaining device that improves the firm’s outside option. Firms consequently value contract labor beyond its contribution to production and strategically use it to shift rents away from regular workers. I estimate the model using Indian plant-level data and separate these flexibility and bargaining motives. Quantitatively, removing the wage-suppression channel reduces the contract employment share from 41 percent to just 10 percent, implying that the bargaining incentive accounts for majority of contract employment in the estimated economy.</div>
 <div id="ra-presentations" class="toggle-panel">Macro Workshop, PSE (May 2024, 2026; October 2025); Macro Reading Group, University of Edinburgh (April 2025); Labor/Public Reading Group, Sciences Po (October 2025); 
 20th Annual Conference on Economic Growth and Development, ISI Delhi (December 2025); 14th Warwick Economics PhD conference (May 2026); Brownbag Macro Seminar, University of Edinburgh (June 2026); III Workshop on Frontiers of Macro-Labour Economics (scheduled, December 2026) </div>
 <div id="ra-funding" class="toggle-panel">EUR PgSE.</div>
@@ -202,13 +209,13 @@ function applyDarkMode() {
     btn.innerHTML = isDark ? sunSVG : moonSVG;
   });
   // html background (Safari :has() bug workaround)
-  document.documentElement.style.setProperty('background-color', isDark ? '#0c0c0c' : '', 'important');
+  document.documentElement.style.setProperty('background-color', isDark ? '#171b22' : '', 'important');
   // Model cards and panels — Safari doesn't animate CSS-variable-driven transitions
   document.querySelectorAll('.model-card').forEach(el => {
-    el.style.setProperty('background-color', isDark ? '#161616' : '#f7f7f7', 'important');
+    el.style.setProperty('background-color', isDark ? '#1e2229' : '#f7f7f7', 'important');
   });
   document.querySelectorAll('.toggle-panel').forEach(el => {
-    el.style.setProperty('background-color', isDark ? '#161616' : '', 'important');
+    el.style.setProperty('background-color', isDark ? '#1e2229' : '', 'important');
   });
   document.querySelectorAll('.right-col h2').forEach(el => {
     el.style.setProperty('color', isDark ? '#f0efe9' : '', 'important');
