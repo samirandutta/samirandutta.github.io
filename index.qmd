@@ -209,7 +209,7 @@ function applyDarkMode() {
     btn.innerHTML = isDark ? sunSVG : moonSVG;
   });
   // html background (Safari :has() bug workaround)
-  document.documentElement.style.setProperty('background-color', isDark ? '#171b22' : '', 'important');
+  document.documentElement.style.setProperty('background-color', isDark ? '#171b22' : '#fcfaf5', 'important');
   // Model cards and panels — Safari doesn't animate CSS-variable-driven transitions
   document.querySelectorAll('.model-card').forEach(el => {
     el.style.setProperty('background-color', isDark ? '#1e2229' : '#f7f7f7', 'important');

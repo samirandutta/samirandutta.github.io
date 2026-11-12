@@ -163,7 +163,6 @@ body.quarto-dark .model-card .toggle-panel {
   color: #888 !important;
 }
 
-
 /* ---------- Reset Quarto chrome ---------- */
 #quarto-header { display: none !important; }
 .quarto-title-block { display: none !important; }
